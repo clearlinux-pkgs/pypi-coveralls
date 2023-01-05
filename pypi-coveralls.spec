@@ -4,7 +4,7 @@
 #
 Name     : pypi-coveralls
 Version  : 3.3.1
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/c2/c5/6b8254092117fa366b022fbee9434224483ba38e0bbf36e80836bf10692a/coveralls-3.3.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c2/c5/6b8254092117fa366b022fbee9434224483ba38e0bbf36e80836bf10692a/coveralls-3.3.1.tar.gz
 Summary  : Show coverage stats online via coveralls.io
