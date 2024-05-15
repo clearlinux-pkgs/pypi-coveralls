@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-coveralls
-Version  : 4.0.0
-Release  : 16
-URL      : https://files.pythonhosted.org/packages/97/14/7906489e8b225cfd9e667da2d424cdf92e4f93a19358587cf83960c80a25/coveralls-4.0.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/97/14/7906489e8b225cfd9e667da2d424cdf92e4f93a19358587cf83960c80a25/coveralls-4.0.0.tar.gz
+Version  : 4.0.1
+Release  : 17
+URL      : https://files.pythonhosted.org/packages/61/75/a454fb443eb6a053833f61603a432ffbd7dd6ae53a11159bacfadb9d6219/coveralls-4.0.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/61/75/a454fb443eb6a053833f61603a432ffbd7dd6ae53a11159bacfadb9d6219/coveralls-4.0.1.tar.gz
 Summary  : Show coverage stats online via coveralls.io
 Group    : Development/Tools
 License  : MIT
@@ -66,10 +66,10 @@ python3 components for the pypi-coveralls package.
 
 
 %prep
-%setup -q -n coveralls-4.0.0
-cd %{_builddir}/coveralls-4.0.0
+%setup -q -n coveralls-4.0.1
+cd %{_builddir}/coveralls-4.0.1
 pushd ..
-cp -a coveralls-4.0.0 buildavx2
+cp -a coveralls-4.0.1 buildavx2
 popd
 
 %build
@@ -77,7 +77,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1714433771
+export SOURCE_DATE_EPOCH=1715782818
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
